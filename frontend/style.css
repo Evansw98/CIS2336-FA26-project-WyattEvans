@@ -86,3 +86,11 @@
 .body-text{
     font-family: 'Source Sans',sans-serif;
 }
+
+.subheader{
+    font-family: 'League Gothic',sans-serif;
+    font-size: 200%;
+    font-weight: 300;
+    padding-left: 20%;
+    padding-top: 5%;
+}
