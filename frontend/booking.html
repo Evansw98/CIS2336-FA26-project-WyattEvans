@@ -47,17 +47,21 @@
         <br>
             <input type="date" id="date" name="date" required>
         <br>
-        <label for="time">Time</label>
+        <label for="start">Start</label>
         <br>
-            <input type="time" id="time" name="time" required>
+            <input type="time" id="start" name="start" min="07:30" max="20:00" required>
+        <br>
+        <label for="end">End</label>
+        <br>
+            <input type="time" id="end" name="end" min="08:30" max="21:00" required>
         <br>
         <label for="name">Name</label>
         <br>
-            <input type="name" id="name" name="name" required>
+            <input type="text" id="name" name="name" required>
         <br>
         <label for="student-id">Student ID</label>
         <br>
-            <input type="number" id="student-id" name="student-id" required>
+            <input type="text" id="student-id" name="student-id" pattern="[0-9]{7}" maxlength="7" title="Please enter a valid student ID number." required>
         <br>
         <label for="email">Email</label>
         <br>
