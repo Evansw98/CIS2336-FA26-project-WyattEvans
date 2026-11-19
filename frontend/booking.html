@@ -30,6 +30,36 @@
     </p>
 
     <h2 class = "subheader">Booking Form</h2>
+
+    <form method="post" style="font-family: 'Source Sans',sans-serif; padding-left: 20%;">
+        <label for="room">Room</label>
+        <br>
+            <select id="room" name="room" required>
+                <option value="">Select a Room</option>
+                <option value="houston">Houston Room</option>
+                <option value="dallas">Dallas Room</option>
+                <option value="austin">Austin Room</option>
+                <option value="san-antonio">San Antonio Room</option>
+                <option value="el-paso">El Paso Room</option>
+            </select>
+        <br>
+        <label for="date">Date</label>
+        <br>
+            <input type="date" id="date" name="date" required>
+        <br>
+        <label for="time">Time</label>
+        <br>
+            <input type="time" id="time" name="time" required>
+        <br>
+        <label for="name">Name</label>
+        <br>
+            <input type="name" id="name" name="name" required>
+        <br>
+        <label for="student-id">Student ID</label>
+        <br>
+            <input type="number" id="student-id"
+    </form>
+
     <script src="script.js"></script>
 </body>
 </html>
