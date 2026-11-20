@@ -1,7 +1,14 @@
 const express = require('express');
 const app = express();
 
-//insert working code here
+
+app.use(express.static('frontend'));
+app.use(express.urlencoded({extended: true}));
+app.post('/booking',(req,res)=>{
+    console.log(req.body);
+
+    res.send('Your booking request was received!');
+});
 
 const port = 8080;
 
