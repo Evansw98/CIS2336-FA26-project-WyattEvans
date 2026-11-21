@@ -41,11 +41,15 @@ if(fs.existsSync(filePath)){
     }
 }
 
+for (let i = 0; i < existingData.length; i++){
+    if (existingData[i].date == newEntry.date && existingData[i].room == newEntry.room){
+        
+    }
+}
+
 existingData.push(newEntry);
 
 fs.writeFileSync(filePath, JSON.stringify(existingData));
-
-const displayResult = 'Booking successful';
 
 });
 
